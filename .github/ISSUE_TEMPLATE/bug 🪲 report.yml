@@ -1,6 +1,6 @@
 name: Bug Report / Request for improvement
 description: Caught a bug? Found an issue? Create a report to help us improve!
-title: Bug/Issue:
+title: "Bug/Issue: "
 labels: ["bug"]
 projects: ["ChipFlow/3"]
 assignees:
