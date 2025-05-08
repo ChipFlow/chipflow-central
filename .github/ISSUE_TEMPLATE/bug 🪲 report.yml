@@ -1,9 +1,8 @@
 name: Bug Report
 description: Caught a bug? Create a report to help us improve!
 title: "[Bug]: "
+labels: ["bug", "issue type: bug"]
 projects: ["ChipFlow/3"]
-milestones: 
-  - ChipFlow Platform v0.2-alpha
 assignees:
   - go1ets
 body:
