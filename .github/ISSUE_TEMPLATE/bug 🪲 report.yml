@@ -1,10 +1,23 @@
-name: Bug Report
-description: Caught a bug? Create a report to help us improve!
+name: Bug Report / Request for improvement
+description: Caught a bug? Found an issue? Create a report to help us improve!
 title: "[Bug]: "
-labels: ["bug", "issue type: bug"]
+labels: ["bug"]
 projects: ["ChipFlow/3"]
 assignees:
   - go1ets
+body:
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      description: What type of issue is this?
+      options:
+        - Bug
+        - Feature Request
+        - Question
+        - Other
+    validations:
+      required: true
 body:
   - type: markdown
     attributes:
