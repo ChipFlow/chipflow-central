@@ -3,7 +3,7 @@ description: Caught a bug? Found an issue? Create a report to help us improve!
 title:
   - type: input
     attributes:
-      placeholder: Bug: something went wrong
+      placeholder: ex. Something went wrong
     validations:
       required: false
 labels: ["bug"]
