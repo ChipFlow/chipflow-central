@@ -1,11 +1,15 @@
 name: Bug Report / Request for improvement
 description: Caught a bug? Found an issue? Create a report to help us improve!
-title: Bug / Issue
+title: Bug/Issue:
 labels: ["bug"]
 projects: ["ChipFlow/3"]
 assignees:
   - go1ets
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: dropdown
     id: issue_type
     attributes:
@@ -18,10 +22,6 @@ body:
         - Other
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
     id: contact
     attributes:
