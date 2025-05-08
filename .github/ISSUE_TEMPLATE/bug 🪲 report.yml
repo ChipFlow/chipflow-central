@@ -1,6 +1,11 @@
 name: Bug Report / Request for improvement
 description: Caught a bug? Found an issue? Create a report to help us improve!
-title: bug
+title:
+  - type: input
+    attributes:
+      placeholder: Bug: something went wrong
+    validations:
+      required: false
 labels: ["bug"]
 projects: ["ChipFlow/3"]
 assignees:
