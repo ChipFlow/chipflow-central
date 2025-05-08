@@ -34,8 +34,8 @@ body:
       label: Version
       description: Do you run ChipFlow Plarform v0.2-alpha?
       options:
-        - Yes, v0.2-alpha (Default)
-        - other (Edge)
+        - Yes, v0.2-alpha
+        - other
       default: 0
     validations:
       required: true
