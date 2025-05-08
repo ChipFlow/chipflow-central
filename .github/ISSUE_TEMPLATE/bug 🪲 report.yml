@@ -5,7 +5,7 @@ labels: ["bug"]
 projects:
 - Chipflow Platform
 assignees:
-  - go1ets
+  - robtaylor
 body:
   - type: markdown
     attributes:
