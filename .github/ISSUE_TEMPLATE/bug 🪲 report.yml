@@ -2,10 +2,9 @@ name: Bug Report
 description: Caught a bug? Create a report to help us improve!
 title: "[Bug]: "
 labels: ["bug"]
-projects:
-- Chipflow Platform
+projects: ["ChipFlow/3"]
 assignees:
-  - robtaylor
+  - go1ets
 body:
   - type: markdown
     attributes:
