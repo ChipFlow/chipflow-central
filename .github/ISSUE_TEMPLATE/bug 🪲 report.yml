@@ -1,8 +1,9 @@
 name: Bug Report
-description: File a bug report.
+description: Caught a bug? Create a report to help us improve!
 title: "[Bug]: "
 labels: ["bug"]
-projects: ["Chipflow Platform"]
+projects:
+- Chipflow Platform
 assignees:
   - go1ets
 body:
