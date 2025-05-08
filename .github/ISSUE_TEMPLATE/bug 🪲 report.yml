@@ -18,7 +18,6 @@ body:
         - Other
     validations:
       required: true
-body:
   - type: markdown
     attributes:
       value: |
